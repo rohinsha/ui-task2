@@ -1,0 +1,108 @@
+* {
+	padding: 0;
+	margin: 0;
+ }
+body {
+	padding: 0;
+	margin: 0;
+	background-color: $lightGray;
+ 	}
+ .nav-block {
+ 	margin-bottom:0;
+ }
+.logo {
+	height: 63px;
+	padding: 10px 30px;
+	img {
+		width: 170px;
+	}
+}
+.wrapper {
+	padding: 0;
+	margin: 0;
+}
+.heading {
+	color: black;
+	margin: 18px 20px 10px;
+}
+.left-sidebar {
+	width: 220px;
+	height: 100%;
+	position: fixed;
+	background-color: $darkGray;
+}
+.customize-select {
+	padding: 9px 38px;
+	color: white;
+	background-color: $darkGreen;
+	margin-top: 17px;
+}
+.layout{
+margin-left: 220px;
+.first-block {
+	width:97%;
+	.first-row {
+			margin: 0;
+	 .col-overview {
+	    background-color: white;
+	.overview-section {
+		  text-align: center;
+			width: 19.98%;
+			border-right: 3px solid $lightGray;
+			float: left;
+			height: 70px;
+		  background-color: white;
+			margin-top: 30px;
+			margin-bottom: 40px;
+			&:nth-child(5){
+				border:none;
+			}
+			p {
+				font-size: 28px;
+				font-weight: bold;
+				span {
+					padding-right: 7px;
+				}
+				.small {
+					font-weight: normal;
+				}
+			}
+		}
+	}
+ }
+}
+.second-row {
+	width:97%;
+	.notify-bar{
+padding:14px;
+	h3{
+		font-weight: bold;
+		display: inline;
+		margin-left: -12px;
+		.inactive-members {
+			font-size: 16px;
+			font-weight: normal;
+		}
+	}
+	.calendar {
+		margin-left: 508px;
+		padding:9px 45px;
+		background-color: $darkBlue;
+		color:white;
+	}
+	.blueberry{
+		padding:9px 45px;
+		background-color: $darkGreen;
+		color:white;
+	}
+	.filter {
+		margin-left: 94px;
+		font-size: 34px;
+		position: relative;
+		top: 10px;
+		color: $darkGreen;
+		margin-right: 12px;
+	}
+}
+}
+}
