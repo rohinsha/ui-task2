@@ -37,23 +37,30 @@ body {
 	background-color: $darkGreen;
 	margin-top: 17px;
 }
-.layout{
+.layout {
 margin-left: 220px;
 .first-block {
 	width:97%;
 	.first-row {
 			margin: 0;
 	 .col-overview {
-	    background-color: white;
+	    	background-color: white;
 	.overview-section {
-		  text-align: center;
+		    text-align: center;
 			width: 19.98%;
 			border-right: 3px solid $lightGray;
 			float: left;
 			height: 70px;
-		  background-color: white;
+		  	background-color: white;
 			margin-top: 30px;
-			margin-bottom: 40px;
+			margin-bottom: 60px;
+			&:nth-child(3) {
+				img {
+					display:block;
+				    margin: 0 auto;
+    				margin-top: -11px;
+				}
+			}
 			&:nth-child(5){
 				border:none;
 			}
@@ -102,6 +109,87 @@ padding:14px;
 		top: 10px;
 		color: $darkGreen;
 		margin-right: 12px;
+	}
+}
+}
+.products-section {
+	height:400px;
+	.product-row{
+		margin:0;
+		padding-left:58px;
+	}
+.analysis-col {
+	padding:0;
+	width:31%;
+	margin-right:20px;
+	text-align:center;
+	border:1px solid red;
+	background-color:blue;
+	img{
+		width:100px;
+		margin-top: -50px;
+		border:1px solid white;
+	}
+	.avg-section{
+		margin-right:0;
+		margin-left:0;
+		border-bottom:1px solid green;
+	}
+	.temp,
+	.points{
+		width:100px;
+		background:black;
+		color:white;
+	}
+	.rasberry{
+		    background: green;
+   			padding: 0 11px;
+   			font-size: 22px;
+   			margin-right: 10px;
+	}
+	.blueberries{
+		background: orange;
+   			padding: 0 11px;
+   			font-size: 22px;
+	}
+	.analysis{
+		    border-top: 1px solid red;
+    padding-top: 15px;
+    width: 67%;
+    margin: 14px auto;	}
+	.heading-top{
+		    height: 119px;
+    		background: red;
+   			margin-top: -21px;
+   			h2{
+   				padding-top:5px;
+   			}
+   			h5{
+   				    background: green;
+    width: 60px;
+     margin: 0 auto;
+   			}
+	}
+	.runs{
+	    width: 68%;
+	    text-align: center;
+	    margin: 0 auto;
+	    padding-top: 10px;
+		padding-bottom:8px;
+		border-bottom:1px solid gray;
+		}
+	.products{
+		margin-top: 2px;
+	}
+	.runs,
+	.products {
+		font-size: 22px;
+		span{
+			position:relative;
+			top:6px;
+			font-size: 35px;
+			padding-right:10px;
+		}
 	}
 }
 }
