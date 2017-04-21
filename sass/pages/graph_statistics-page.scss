@@ -4,6 +4,7 @@
  }
 body {
 	padding: 0;
+	padding-top: 64px;
 	margin: 0;
 	background-color: $lightGray;
  	}
@@ -30,6 +31,59 @@ body {
 	height: 100%;
 	position: fixed;
 	background-color: $darkGray;
+	.left-side-nav{
+		margin-top: 20px;
+		li{
+			padding:10px 25px;
+			list-style: none;
+			margin: 0 auto;
+			font-size: 18px;
+
+			&:nth-child(1){
+						background-color: $make;
+				.map{
+					border-radius: 100%;
+					margin-left: -7px;
+					background: $analysis;
+					padding: 6px;
+					font-size: 30px;
+				}
+			a{
+
+					padding-left: 20px;
+					font-size: 26px;
+					margin-left: -15px;
+
+						text-decoration: none;
+
+				}
+				.sub-make-section{
+
+					background: $makediv;
+					position: relative;
+					left: 14px;
+					width: 180px;
+					padding: 1px 22px;
+					margin-top: 15px;
+					color:white;
+					h4{
+						color:$grower;
+					}
+				}
+			}
+			.map{
+				padding-right: 20px;
+				font-size: 20px;
+				color:white;
+			}
+			a{
+				color:white;
+
+					text-decoration: none;
+
+			}
+		}
+	}
 }
 .customize-select {
 	padding: 9px 38px;
@@ -91,10 +145,14 @@ padding:14px;
 			font-weight: normal;
 		}
 	}
+	.cal-blue{
+		float: right;
+margin-top: -7px;
+	}
 	.calendar {
-		margin-left: 508px;
+
 		padding:9px 45px;
-		background-color: $darkBlue;
+		background-color: $calendar;
 		color:white;
 	}
 	.blueberry{
@@ -113,6 +171,7 @@ padding:14px;
 }
 }
 .products-section {
+
 	height:400px;
 	.product-row{
 		margin:0;
@@ -123,8 +182,8 @@ padding:14px;
 	width:31%;
 	margin-right:20px;
 	text-align:center;
-	border:1px solid red;
-	background-color:blue;
+
+	background-color: white;
 	img{
 		width:100px;
 		margin-top: -50px;
@@ -133,7 +192,7 @@ padding:14px;
 	.avg-section{
 		margin-right:0;
 		margin-left:0;
-		border-bottom:1px solid green;
+		border-bottom:1px solid gray;
 	}
 	.temp,
 	.points{
@@ -142,30 +201,49 @@ padding:14px;
 		color:white;
 	}
 	.rasberry{
-		    background: green;
+		    background:$rasberry;
    			padding: 0 11px;
    			font-size: 22px;
    			margin-right: 10px;
+				color: white;
 	}
 	.blueberries{
-		background: orange;
+		background: $blueberry;
+		color:$calendar;
    			padding: 0 11px;
    			font-size: 22px;
 	}
 	.analysis{
-		    border-top: 1px solid red;
+		    border-top: 1px solid gray;
     padding-top: 15px;
     width: 67%;
     margin: 14px auto;	}
+		.btn-compare{
+			font-size: 17px;
+
+padding: 1px 20px;
+
+
+    padding: 1px 33px;
+}
+		.btn-detail{
+
+color:$blueberry;
+
+font-size: 17px;
+color: #92c9f8;
+padding: 1px 43px;
+
+		}
 	.heading-top{
 		    height: 119px;
-    		background: red;
+    		background:$analysis;
    			margin-top: -21px;
    			h2{
    				padding-top:5px;
    			}
    			h5{
-   				    background: green;
+   				    background: $grower;
     width: 60px;
      margin: 0 auto;
    			}
@@ -191,6 +269,336 @@ padding:14px;
 			padding-right:10px;
 		}
 	}
+}
+}
+}
+@media screen and (min-width :1025px) and (max-width:1280px){
+.second-row{
+	.notify-bar{
+		.cal-blue{
+			margin-top: -7px;
+			.calendar{
+				padding: 9px 39px;
+				margin-right: 26px;
+			}
+			.filter{
+				margin-left: 0px;
+			}
+			.blueberry{
+				padding: 9px 35px;
+			}
+		}
+	}
+}
+}
+.layout{
+
+.products-section {
+	.product-row {
+  padding-left: 41px;
+}
+.analysis-col{
+	margin-right: 5px;
+	.btn-compare{
+		font-size: 15px;
+		padding: 1px 2px;
+	}
+	.btn-detail{
+		font-size: 16px;
+		padding: 1px 25px
+	}
+	.blueberries{
+		padding: 2px 8px;
+font-size: 16px;
+	}
+	.rasberry{
+		padding: 2px 8px;
+font-size: 16px;
+	}
+	.analysis{
+		width: 72%;
+		font-size: 20px;
+	}
+	.avg-section{
+		.avg-temp-text{
+			font-size: 18px;
+		}
+
+	}
+}
+}
+}
+@media screen and (min-width :768px) and (max-width:1024px){
+	.layout{
+		.first-block {
+			.first-row {
+				.col-overview{
+					 .overview-section{
+						 margin-top: 15px;
+						 margin-bottom: 53px;
+						 &:nth-child(1){
+						 p{
+							 margin-top: 16px;
+
+						 }
+					 }
+						 p{
+							 margin-top: -8px;
+							 font-size: 20px;
+						 }
+					 }
+		}
+	}
+	}
+	.second-row {
+		.notify-bar{
+			.cal-blue{
+				margin-top: -8px;
+			}
+			h3{
+				font-size: 16px;
+			}
+			.filter{
+				font-size: 25px;
+	position: relative;
+	top: 7px;
+	right: -6px;
+			}
+			.calendar{
+				padding: 4px 0px;
+				margin-right: -61px;
+margin-left: 10px;
+			}
+			.blueberry{
+				    padding: 4px 0px;
+			}
+		}
+
+	}
+	.products-section {
+
+	.analysis-col{
+		margin-right: 5px;
+		.runs{
+			font-size: 16px;
+			padding-bottom: 8px;
+			padding-top: 0;
+		}
+		.products{
+			margin-top: -8px;
+				font-size: 16px;
+				margin-bottom: 10px;
+				span{
+					font-size: 28px;
+				}
+		}
+		.btn-detail{
+			font-size: 14px;
+			padding: 0px 16px;
+		}
+		.btn-compare{
+			font-size: 12px;
+			padding: 6px 4px;
+		}
+		.analysis{
+			font-size: 17px;
+		}
+		.avg-section{
+			margin-top: -16px;
+			.avg-temp-text{
+				font-size: 13px;
+				margin-top: 5px;
+			}
+			.avg-temp{
+				font-size: 24px;
+			}
+		}
+		.heading-top{
+			h2{
+				font-size: 23px;
+			}
+		 }
+	  }
+   }
+  }
+ }
+ @media screen and (max-width: 767px){
+	 .left-sidebar{
+		 left:-220px;
+	 }
+	 .layout{
+		 margin-left: 0px;
+	 }
+ }
+ @media screen and (min-width :520px) and (max-width:767px){
+	 .nav-block{
+		 .heading{
+			 margin: -43px 30px 0px;
+		 }
+	 }
+	 .layout {
+		 .products-section{
+			 .analysis-col{
+				 margin-right: 14px;
+    		 margin-bottom: 20px;
+				 width: 47%;
+			 }
+			 .product-row{
+				     padding-left: 30px;
+			 }
+		 }
+		 .first-block {
+			 width: 92%;
+			 .first-row {
+				 .col-overview {
+					 	height: 232px;
+					 .overview-section {
+						  margin-top: 10px;
+						 	&:nth-child(1),
+							&:nth-child(2),
+							&:nth-child(3) {
+								width:33.333%;
+							}
+							&:nth-child(3){
+								border: none;
+							}
+
+							&:nth-child(5){
+								border: none;
+							}
+							&:nth-child(4){
+									padding-left: 25px;
+									width:50%;
+							}
+							&:nth-child(5){
+									padding-right: 25px;
+									width:50%;
+							}
+
+	 }
+ }
+}
+}
+.second-row {
+	.notify-bar {
+		 h3 {
+			 	display: block;
+				text-align: left;
+				font-size: 26px;
+				margin-left: 0;
+				margin-top: 10px;
+				margin-bottom: 13px;
+	 }
+	 .filter{
+		     margin-left: 0;
+	 }
+	 .cal-blue{
+		 margin-left: 17px;
+		 float: none;
+		 margin-top: 0;
+	 }
+	 .calendar{
+		 padding: 8px 26px;
+		 margin-right: 99px
+	 }
+	 .filter-label{
+		 float: right;
+		 margin-top: -10px;
+	 }
+	 .blueberry{
+		     padding: 8px 26px;
+	 }
+	}
+}
+}
+}
+@media screen and (min-width :320px) and (max-width:519px){
+	.nav-block{
+		.heading{
+			margin: -43px 14px 0px;
+		}
+	}
+	.layout {
+		margin-left: 16px;
+		.products-section{
+			.analysis-col{
+				margin-right: 14px;
+				margin-bottom: 20px;
+				width: 100%;
+				margin-top: 10px;
+			}
+			.product-row{
+						padding-left: 2px;
+			}
+		}
+		.first-block {
+			width: 92%;
+			.first-row {
+				.col-overview {
+
+					.overview-section {
+						 margin-top: 7px;
+						 margin-bottom: 52px;
+						 &:nth-child(1),
+						 &:nth-child(2),
+						 &:nth-child(3),
+						 &:nth-child(4),
+
+						{
+							 width:50%;
+						 }
+						 &:nth-child(3){
+							 border: none;
+						 }
+						  &:nth-child(2),
+							 &:nth-child(4),
+						 &:nth-child(5){
+							 border: none;
+
+						 }
+						 &:nth-child(5){
+							 width: 100%;
+
+						}
+
+						}
+
+	}
+}
+}
+
+.second-row {
+ .notify-bar {
+		h3 {
+			 display: block;
+			 text-align: left;
+			 font-size: 18px;
+			 margin-left: 0;
+			 margin-top: 10px;
+			 margin-bottom: 13px;
+	}
+	.filter{
+				margin-left: 0;
+				margin-right: 0;
+	}
+	.cal-blue{
+
+		float: none;
+		margin-top: 0;
+	}
+	.calendar{
+		padding: 6px 2px;
+
+	}
+	.filter-label{
+		float: right;
+		margin-top: -11px;
+		margin-left: 22px;
+	}
+	.blueberry{
+				padding: 6px 1px;
+	}
+ }
 }
 }
 }
