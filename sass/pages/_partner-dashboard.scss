@@ -54,7 +54,7 @@
   .product-detail-block {
   		width: 96%;
   		.product-group {
-				padding: 15px 0;;
+				padding: 15px 0;
 				margin: 0;
   		 .planned-resources-spent {
 		  			width: 19.5% !important;
@@ -83,6 +83,12 @@
    				&:nth-child(4) {
     				margin-right: 0;
     			}
+					.meter-img {
+						position: relative;
+						float: right;
+						margin-top: 10px;
+						right: 10px;
+					}
     		.partner-details {
     				display: inline;
     				float: right;
@@ -119,7 +125,11 @@
     			margin-top: 19px;
     			margin-right: 16px;
     			display: block;
+					color: white;
     		}
+				.cold{
+					background-color: $analysis;
+				}
 			.graph-hi-low {
 					margin: 0;
 					padding-bottom: 10px;
@@ -134,4 +144,87 @@
   		}
   	}
   }
+}
+@media screen and (min-width :768px) and (max-width:1024px){
+.compare-section {
+	.select-checkbox-block {
+		 .select-checkbox-group {
+			  .checkbox-item {
+					    padding: 6px 7px 6px 6px;
+							select{
+										padding: 4px 1px;
+										width: 100px;
+							}
+							&:nth-child(1) {
+								select{
+						    padding: 3px 5px 5px 25px !important;
+					}
+				}
+					 label {
+						 font-size: 16px;
+						 width: 100px;
+
+					 }
+
+				 }
+			 }
+		 }
+		 .product-detail-block {
+			 .product-group {
+				 .planned-resources-spent{
+					 h4{
+						 font-size: 15px;
+						 padding-top: 30px;
+						 padding-bottom: 12px;
+						 width: 79px;
+						 margin: 0 auto;
+					 }
+					 h5{
+						 margin-left: auto;
+						 margin-right: auto
+					 }
+				 }
+				  .content-item {
+						label {
+							padding: 2px 5px;
+							margin-top: 21px;
+							margin-right: 9px;
+						}
+						.very-hot{
+							margin-right: 1px;
+							padding: 2px 1px;
+						}
+						 .graph-hi-low {
+							 .graph{
+								 padding: 0;
+								 width: 52%;
+							 }
+							 .hi-low {
+								 padding: 0;
+								 width: 48%;
+							 }
+						 }
+						 .display-hr {
+							  padding-left: 5px;
+								font-size: 19px;
+						}
+
+						label {
+							padding: 2px 3px;
+							margin-top: 21px;
+							margin-right: 6px;
+							}
+	 				}
+				}
+			}
+		}
+	}
+@media screen and (min-width :768px) and (max-width:1024px){
+
+}
+@media screen and (max-width: 767px){
+
+	.compare-section {
+		 margin-left: 0px;
+	}
 }
