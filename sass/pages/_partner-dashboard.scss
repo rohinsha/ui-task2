@@ -219,8 +219,18 @@
 			}
 		}
 	}
-@media screen and (min-width :768px) and (max-width:1024px){
-
+@media screen and (min-width :1058px) and (max-width:1146px){
+	.compare-section {
+		.select-checkbox-block {
+			 .select-checkbox-group {
+				 .checkbox-item {
+					 label{
+						     width: 80px;
+					 }
+				 }
+			 }
+		 }
+	 }
 }
 @media screen and (max-width: 767px){
 
