@@ -228,3 +228,22 @@
 		 margin-left: 0px;
 	}
 }
+@media screen and (min-width: 1380px){
+	.compare-section {
+		.product-detail-block {
+			 .product-group {
+				  .content-item {
+						label {
+							margin-top: 27px;
+							margin-right: 25px;
+
+						}
+						.meter-img{
+							margin-top: 15px;
+							right: 26px;
+						}
+					}
+				}
+			}
+		}
+ }
