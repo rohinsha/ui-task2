@@ -261,3 +261,213 @@
 			}
 		}
  }
+ @media screen and (min-width :520px) and (max-width:767px) {
+	 .nav-name{
+		 margin: -39px 20px 0 0;
+  	 }
+	.compare-section {
+		.select-checkbox-block {
+			.select-checkbox-group {
+				.checkbox-item {
+					select{
+						padding: 6px 5px;
+						width: 105px;
+					}
+					&:nth-child(1) {
+						select {
+							    padding: 5px 8px 5px 27px;
+						}
+					label {
+	 	 					margin-right: -2px;
+	 						margin-left: 0;
+	 						width: 77px;
+	  				}
+					}
+				}
+			}
+		}
+	 .product-detail-block{
+		  .product-group {
+				.planned-resources-spent {
+					h4{
+						font-size: 17px;
+    				width: 93px;
+					}
+				}
+				.content-item {
+					.partner-details{
+						float: right;
+    				padding: 7px 1px;
+						font-size: 11px;
+					}
+					.blue-eye {
+
+						top: 13px !important;
+
+						font-size: 11px !important;
+						left:-4px !important;
+					}
+					.meter-img{
+						position: relative;
+						float: right;
+						margin-top: 17px;
+						right: 5px;
+						width: 45px;
+					}
+					.graph-hi-low{
+						.graph{
+							width: 60%;
+							position: relative;
+							top: 9px;
+							padding: 0 !important;
+						}
+						.hi-low {
+							width:40%;
+							padding: 0;
+							h6 {
+								font-size: 11px;
+								padding: 0 !important;
+						}
+					}
+				}
+					.display-hr {
+						font-size: 17px;
+						    padding-left: 13px;
+					}
+					.very-hot{
+						margin-top: 26px;
+						margin-right: 3px;
+						font-size: 10px;
+						position: relative;
+						    padding: 2px 4px;
+						top: -7px;
+					}
+					label {
+						margin-top: 25px;
+						margin-right: 4px;
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+ @media screen and (min-width :320px) and (max-width:519px){
+	 .nav-name{
+ 		    margin: -42px 5px 0 0;
+ 	}
+	.compare-section {
+		.select-checkbox-block {
+			width: 96%;
+			.select-checkbox-group {
+				margin: 0;
+				padding: 13px 11px;
+
+				.checkbox-item {
+					    padding: 8px 0px;
+							width: 50%;
+							margin-bottom: 10px;
+
+							label{
+								margin-right: 0;
+								width: 93px;
+							}
+							select{
+								width: 100px;
+								padding: 5px 0px 5px 3px;
+							}
+							&:nth-child(1){
+								select{
+									  padding: 5px 0px 5px 27px;
+								}
+
+							}
+							&:nth-child(2){
+								border-right:none;
+							}
+						}
+					}
+				}
+				.product-detail-block {
+					.product-group {
+						.planned-resources-spent{
+							h4{
+								font-size: 9px;
+padding-top: 30px;
+padding-bottom: 12px;
+width: 55px;
+margin: 0 auto;
+							}
+							h5{
+								    font-size: 8px;
+							}
+						}
+						.content-item {
+							.blue-eye{
+								top: 12px;
+								left:0;
+								font-size: 9px;
+							}
+							.partner-details{
+								font-size: 11px;
+								padding: 7px 0 7px 4px;
+								width: 74px;
+							}
+							label {
+								padding: 1px 0;
+								margin-top: 21px;
+								font-size: 8px;
+								margin-right: 0;
+								margin-bottom: 5px;
+							}
+							.heading-1 {
+								font-size: 15px !important;
+							}
+							.meter-img{
+								float: right;
+								margin-top: 16px;
+								width: 30px;
+								margin-right: 1px;
+								right: 0;
+							}
+							.graph-hi-low{
+								padding-bottom: 2px;
+								margin: 0;
+								.hi-low{
+									    padding: 0;
+											width: 100%;
+								}
+								.graph{
+									padding: 0;
+									width: 100%;
+									.graph-img{
+										width:70px;
+									}
+								}
+							}
+
+							.display-hr{
+									padding-left: 2px;
+									font-size: 13px;
+							}
+						}
+					}
+				}
+			}
+
+ 		}
+		 @media screen and (min-width :320px) and (max-width:360px){
+			 .compare-section .product-detail-block .product-group .content-item
+			 {
+				 .blue-eye{
+					 top: 33px;
+					 left: -31px;
+					 font-size: 10px;
+				 }
+				 .partner-details{
+					 font-size: 11px;
+					 padding: 7px 0 7px 4px;
+					 width: 65px;
+				 }
+			 }
+		 }
