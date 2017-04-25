@@ -171,17 +171,22 @@ body {
 									}
 									.products-section {
 										height: 400px;
+										width: 90%;
 										.product-row {
 											margin: 0;
-											padding-left: 58px;
-										}
+											
+
 										.analysis-col {
 											padding:0;
-											width: 31%;
-											margin-right: 20px;
+											padding: 0;
+											width: 32.8%;
+											margin-right: 7.5px;
 											text-align: center;
-											height: 555px;
+											height: 600px;
 											background-color: white;
+											&:last-child {
+												margin-right: 0 !important;
+											}
 											img {
 												width: 100px;
 												margin-top: -50px;
@@ -264,6 +269,7 @@ body {
 												}
 											}
 										}
+										}
 									}
 @media screen and (min-width :1025px) and (max-width:1280px){
 .second-row {
@@ -283,43 +289,45 @@ body {
 		}
 	}
  }
-}
+
 .layout {
 	.products-section {
 		.product-row {
-  		padding-left: 41px;
-		}
-		.analysis-col{
-			height:555px;
-			margin-right: 5px;
-			.btn-compare{
-				font-size: 15px;
-				padding: 1px 2px;
+			.analysis-col {
+				height: 570px;
+			   margin-right: 5.5px;
+				.btn-compare {
+						font-size: 15px;
+						padding: 1px 2px;
+					}
+				.btn-detail {
+						font-size: 16px;
+						padding: 1px 25px
+				}
+				.blueberries {
+						padding: 2px 8px;
+						font-size: 16px;
+				}
+				.rasberry {
+						padding: 2px 8px;
+						font-size: 16px;
+				}
+			.analysis {
+						width: 72%;
+						font-size: 20px;
 			}
-			.btn-detail{
-				font-size: 16px;
-				padding: 1px 25px
-			}
-			.blueberries{
-				padding: 2px 8px;
-				font-size: 16px;
-			}
-			.rasberry{
-				padding: 2px 8px;
-				font-size: 16px;
-			}
-		.analysis{
-			width: 72%;
-			font-size: 20px;
-		}
-		.avg-section{
-			.avg-temp-text{
-				font-size: 18px;
+			.avg-section {
+				.avg-temp-text {
+					font-size: 18px;
+					}
 				}
 			}
 		}
+		}
+
 	}
 }
+
 @media screen and (min-width :768px) and (max-width:1024px){
 	.layout{
 		.first-block {
@@ -366,9 +374,14 @@ body {
 		 }
 	}
 	.products-section {
+		.product-row{
 			.analysis-col {
-				height: 520px;
-				margin-right: 5px;
+				height: 545px;
+				width: 32.72%;
+				margin-right: 4.4px;
+				&:last-child{
+					margin-right: 0 !important;
+				}
 				.runs {
 					font-size: 16px;
 					padding-bottom: 8px;
@@ -409,6 +422,7 @@ body {
 			}
 		 }
 	  }
+	}
    }
   }
  }
@@ -428,14 +442,32 @@ body {
 	 }
 	 .layout {
 		 .products-section {
-			 .analysis-col {
-					 margin-right: 14px;
-	    		 margin-bottom: 20px;
-					 width: 47%;
-					 height:584px;
-			 }
+
 			 .product-row {
-				   padding-left: 30px;
+				 .analysis-col {
+						    margin-right: 9.5px;
+								    width: 48.9%;
+
+						 height:645px;
+						 &:nth-child(2){
+							 margin-right: 0px !important;
+						 }
+						 .avg-section {
+							 .avg-temp-text {
+								 font-size: 18px;
+								 }
+							 }
+							 .analysis{
+								     width: 61%;
+										 font-size: 21px;
+							 }
+							 .btn-compare{
+								     padding: 5px 4px;
+							 }
+							 .btn-detail{
+								     padding: 5px 17px;
+							 }
+				 }
 			 }
 		 }
 		 .first-block {
@@ -510,15 +542,29 @@ body {
 	.layout {
 		margin-left: 16px;
 		.products-section	{
-			.analysis-col	{
-				margin-right: 14px;
-				margin-bottom: 20px;
-				width: 100%;
-				margin-top: 10px;
-				height:560px;
-			}
+
 			.product-row	{
-						padding-left: 2px;
+				.analysis-col	{
+
+
+					width: 100%;
+					margin-top: 20px;
+					height:640px;
+					.btn-compare{
+								padding: 5px 4px;
+					}
+					.btn-detail{
+								padding: 5px 17px;
+					}
+					&:first-child{
+						    margin-top: 0;
+					}
+					.avg-section {
+ 					 .avg-temp-text {
+ 						 font-size: 21px !important;
+ 						 }
+ 					 }
+				}
 			}
 		}
 		.first-block {
@@ -534,7 +580,7 @@ body {
 						 &:nth-child(4) {
 							 width:	50%;
 						 }
-						
+
 						  &:nth-child(2),
 							&:nth-child(4),
 						 	&:nth-child(5) {
