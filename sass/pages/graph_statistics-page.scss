@@ -33,6 +33,7 @@ body {
 	background-color: $darkGray;
 	.left-side-nav {
 		margin-top: 20px;
+
 		li {
 			padding: 10px 25px;
 			list-style: none;
@@ -53,6 +54,7 @@ body {
 					font-size: 26px;
 					margin-left: -15px;
 					text-decoration: none;
+
 				}
 				.sub-make-section {
 					background: $makediv;
@@ -532,9 +534,7 @@ body {
 						 &:nth-child(4) {
 							 width:	50%;
 						 }
-						 &:nth-child(3)	{
-							 border: none;
-						 }
+						
 						  &:nth-child(2),
 							&:nth-child(4),
 						 	&:nth-child(5) {
