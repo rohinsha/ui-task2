@@ -1,54 +1,64 @@
 * {
+  margin: 0;
   padding: 0;
-	margin: 0;
- }
+}
+
 body {
-	padding: 0;
-	padding-top: 64px;
-	margin: 0;
-	background-color: $lightgray;
- 	}
- .nav-block {
- 	margin-bottom: 0;
+  background-color: $lightgray;
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
+	}
+
+.nav-block {
+  margin-bottom: 0;
  }
+
 .logo {
-	height: 63px;
-	padding: 10px 30px;
-	img {
-		width: 170px;
+  height: 63px;
+  padding: 10px 30px;
+
+  img {
+    width: 170px;
 	}
 }
+
 .wrapper {
-	padding: 0;
-	margin: 0;
-}
+  margin: 0;
+  padding: 0;
+	}
+
 .heading {
-	color: black;
-	margin: 18px 20px 10px;
+  color: $black;
+  margin: 18px 20px 10px;
 }
+
 .left-sidebar {
-	width: 220px;
-	height: 100%;
-	position: fixed;
-	background-color: $darkgray;
-	.left-side-nav {
-		margin-top: 20px;
+  background-color: $darkgray;
+  height: 100%;
+  position: fixed;
+  width: 220px;
+}
 
-		li {
-			padding: 10px 25px;
-			list-style: none;
-			margin: 0 auto;
-			font-size: 18px;
+.left-side-nav {
+  margin-top: 20px;
 
-			&:nth-child(1) {
-						background-color: $make;
-				.map {
-					border-radius: 100%;
-					margin-left: -7px;
-					background: $analysis;
-					padding: 6px;
-					font-size: 30px;
-				}
+  li {
+    font-size: 18px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 25px;
+
+    &:nth-child(1) {
+		  background-color: $make;
+		  .map {
+        background: $analysis;
+        border-radius: 100%;
+        font-size: 30px;
+        margin-left: -7px;
+        padding: 6px;
+			}
+
 			a {
 					padding-left: 20px;
 					font-size: 26px;
@@ -58,34 +68,42 @@ body {
 				}
 				.sub-make-section {
 					background: $makediv;
-					position: relative;
-					left: 14px;
-					width: 180px;
-					padding: 1px 22px;
-					margin-top: 15px;
 					color: white;
+					left: 14px;
+					margin-top: 15px;
+					padding: 1px 22px;
+					position: relative;
+
+
+					width: 180px;
+
+
 					h4 {
 						color: $grower;
 					}
 				}
 			}
 			.map {
+				color: $whitish;
+						font-size: 20px;
 				padding-right: 20px;
-				font-size: 20px;
-				color: white;
+
+
 			}
 			a {
-				color: white;
+				color: $whitish;
 				text-decoration: none;
 			 }
 		}
 	}
-}
+
 .customize-select {
-					padding: 9px 38px;
-					color: white;
+
+
 					background-color: $darkgreen;
+					color: $whitish;
 					margin-top: 17px;
+								padding: 9px 38px;
 				}
 .layout {
 		margin-left: 220px;
@@ -94,16 +112,17 @@ body {
 					.first-row {
 							margin: 0;
 	 						.col-overview {
-	    							background-color: white;
-										.overview-section {
-											    text-align: center;
-													width: 19.98%;
+	    							background-color: $whitish;
+										.overview-section{
+											background-color: $whitish;
 													border-right: 3px solid $lightgray;
 													float: left;
 													height: 70px;
-											  	background-color: $whitish;
-													margin-top: 30px;
+
 													margin-bottom: 60px;
+														margin-top: 30px;
+														text-align: center;
+														width: 19.98%;
 													&:nth-child(3) {
 														img {
 															display: block;
@@ -112,7 +131,7 @@ body {
 														}
 													}
 													&:nth-child(5) {
-															border: none;
+															border: 0;
 													}
 													p {
 															font-size: 28px;
@@ -133,8 +152,9 @@ body {
 										.notify-bar {
 											padding: 14px;
 											h3 {
-												font-weight: bold;
 												display: inline;
+												font-weight: bold;
+
 												margin-left: -12px;
 												.inactive-members {
 													font-size: 16px;
@@ -146,24 +166,30 @@ body {
 												margin-top: -7px;
 											}
 											.calendar {
-												padding: 9px 45px;
 												background-color: $calendar;
-												color: $whitish;
 												border-radius: 5px;
+												color: $whitish;
+												padding: 9px 45px;
+
 											}
 											.blueberry {
-												padding: 9px 45px;
+
 												background-color: $darkgreen;
-												color: $whitish;
 												border-radius: 5px;
+												color: $whitish;
+												padding: 9px 45px;
+
 											}
 											.filter {
-												margin-left: 94px;
+													color: $darkgreen;
+
 												font-size: 34px;
+margin-left: 94px;
+margin-right: 12px;
 												position: relative;
 												top: 10px;
-												color: $darkgreen;
-												margin-right: 12px;
+
+
 											}
 										}
 									}
@@ -173,82 +199,101 @@ body {
 										.product-row {
 												margin: 0;
 												.analysis-col {
-															padding: 0;
-															padding: 0;
-															width: 32.8%;
-															margin-right: 7.5px;
-															text-align: center;
+														background-color: $whitish;
 															height: 600px;
-															background-color: white;
+															margin-right: 7.5px;
+															padding: 0;
+																text-align: center;
+															width: 32.8%;
+
+
+
+
 															&:last-child {
 																margin-right: 0 $important;
 															}
 															img {
-																width: 100px;
-																margin-top: -50px;
 																border: 1px solid $whitish;
+
+																margin-top: -50px;
+																	width: 100px;
+
 															}
 															.avg-section {
+																	border-bottom: 1px solid $gray;
+																	margin-left: 0;
 																margin-right: 0;
-																margin-left: 0;
-																border-bottom: 1px solid $gray;
+
+
 															}
 															.temp,
 															.points {
-																width: 100px;
+
 																background: black;
 																color: white;
+																width: 100px;
 															}
 															.rasberry {
 						    								background: $rasberry;
-				   											padding: 0 11px;
+				   										color: $whitish;
 											   				font-size: 22px;
 				   											margin-right: 10px;
-																color: $whitish;
+
+																	padding: 0 11px;
 															}
 															.blueberries {
 																background: $blueberry;
 																color: $calendar;
+																font-size: 22px;
 				   											padding: 0 11px;
-				   											font-size: 22px;
+
 															}
 															.analysis {
 						    								border-top: 1px solid $gray;
+																margin: 14px auto;
 				    										padding-top: 15px;
 				    										width: 67%;
-				    										margin: 14px auto;
+
 															}
 															.btn-compare {
 																font-size: 17px;
-																padding: 1px 20px;
+
 				  											padding: 1px 33px;
 															}
 															.btn-detail {
-																color: $blueberry;
+
+
+																color: $btn-detail;
 																font-size: 17px;
-																color: #92c9f8;
 																padding: 1px 43px;
 															}
 															.heading-top {
-						    								height: 119px;
+
 				    										background: $analysis;
+																height: 119px;
 					   										margin-top: -21px;
 				   											h2 {
 				   											padding-top: 5px;
 				   											}
 				   											h5 {
 			   				    						background: $grower;
+																margin: 0 auto;
 			    											width: 60px;
-			     											margin: 0 auto;
+
 			   												}
 															}
 															.runs{
-				    										width: 68%;
-				    										text-align: center;
-				    										margin: 0 auto;
-				    										padding-top: 10px;
-																padding-bottom: 8px;
 																border-bottom: 1px solid $gray;
+																margin: 0 auto;
+																	padding-bottom: 8px;
+padding-top: 10px;
+
+
+				    										text-align: center;
+				    										width: 68%;
+
+
+
 															}
 															.products{
 																margin-top: 2px;
@@ -257,10 +302,12 @@ body {
 															.products {
 																 font-size: 22px;
 																 span{
+																	 font-size: 35px;
+																	 	padding-right: 10px;
 																			position: relative;
 																			top: 6px;
-																			font-size: 35px;
-																			padding-right: 10px;
+
+
 																		}
 																	}
 																}
@@ -273,8 +320,9 @@ body {
 		.cal-blue {
 				margin-top: -7px;
 				.calendar {
+						margin-right: 26px;
 				padding: 9px 39px;
-				margin-right: 26px;
+
 			}
 			.filter {
 				margin-left: 0px;
@@ -301,16 +349,19 @@ body {
 						padding: 1px 25px
 				}
 				.blueberries {
+					font-size: 16px;
 						padding: 2px 8px;
-						font-size: 16px;
+
 				}
 				.rasberry {
+					font-size: 16px;
 						padding: 2px 8px;
-						font-size: 16px;
+
 				}
 			.analysis {
+							font-size: 20px;
 						width: 72%;
-						font-size: 20px;
+
 			}
 			.avg-section {
 				.avg-temp-text {
@@ -329,16 +380,18 @@ body {
 				.first-row {
 					.col-overview {
 					 	.overview-section {
+							margin-bottom: 53px;
 						 		margin-top: 15px;
-						 		margin-bottom: 53px;
+
 						 		&:nth-child(1) {
 						 			p {
 							 			margin-top: 16px;
 										}
 					 				}
 						 			p {
+												font-size: 20px;
 							 		margin-top: -8px;
-							 		font-size: 20px;
+
 						 			}
 							 }
 						 }
@@ -355,13 +408,15 @@ body {
 				.filter {
 					font-size: 25px;
 					position: relative;
+						right: -6px;
 					top: 7px;
-					right: -6px;
+
 				}
 				.calendar {
-					padding: 4px 0px;
+						margin-left: 10px;
 					margin-right: -61px;
-					margin-left: 10px;
+
+					padding: 4px 0px;
 				}
 				.blueberry {
 					    padding: 4px 0px;
@@ -372,8 +427,9 @@ body {
 		.product-row {
 			.analysis-col {
 				height: 545px;
-				width: 32.72%;
 				margin-right: 4.4px;
+				width: 32.72%;
+
 				&:last-child {
 					margin-right: 0 $important;
 				}
@@ -383,16 +439,17 @@ body {
 					padding-top: 0;
 				}
 				.products {
-					margin-top: -8px;
+
 					font-size: 16px;
 					margin-bottom: 10px;
+					margin-top: -8px;
 					span {
 						font-size: 28px;
 					}
 				}
 				.btn-detail {
 					font-size: 14px;
-					padding: 0px 16px;
+					padding: 0 16px;
 				}
 				.btn-compare {
 					font-size: 12px;
@@ -426,24 +483,25 @@ body {
 		 	left: -220px;
 	 }
 	 .layout {
-		 	margin-left: 0px;
+		 	margin-left: 0;
 	 }
  }
  @media screen and (min-width :520px) and (max-width:767px) {
 	 .nav-block {
 		 .heading {
-			 margin: -43px 30px 0px;
+			 margin: -43px 30px 0;
 		 }
 	 }
 	 .layout {
 		 .products-section {
 			 .product-row {
 				 .analysis-col {
+
+						 height: 645px;
 						 margin-right: 9.5px;
 						 width: 48.9%;
-						 height: 645px;
 						 &:nth-child(2) {
-							 margin-right: 0px !important;
+							 margin-right: 0px $important;
 						 }
 						 .avg-section {
 							 .avg-temp-text {
@@ -451,8 +509,9 @@ body {
 								 }
 							 }
 							 .analysis {
+								 	 font-size: 21px;
 								     width: 61%;
-										 font-size: 21px;
+
 							 }
 							 .btn-compare {
 								     padding: 5px 4px;
@@ -507,13 +566,15 @@ body {
 		     margin-left: 0;
 	 	 		}
 	 		.cal-blue {
-				 margin-left: 17px;
+
 				 float: none;
+				  margin-left: 17px;
 				 margin-top: 0;
 	 	 	}
 	 		.calendar {
+				 margin-right: 99px;
 				 padding: 8px 26px;
-				 margin-right: 99px
+
 	 	 	}
 	 		.filter-label {
 				 float: right;
@@ -529,7 +590,7 @@ body {
 @media screen and (min-width :320px) and (max-width:519px) {
 	.nav-block	{
 		.heading	{
-			margin: -43px 14px 0px;
+			margin: -43px 14px 0;
 		}
 	}
 	.layout {
@@ -537,9 +598,10 @@ body {
 		.products-section	{
 			.product-row	{
 				.analysis-col	{
-					width: 100%;
+								height:640px;
 					margin-top: 20px;
-					height:640px;
+					width: 100%;
+
 					.btn-compare {
 								padding: 5px 4px;
 					}
@@ -562,8 +624,9 @@ body {
 			.first-row {
 				.col-overview {
 					.overview-section {
-						 margin-top: 7px;
 						 margin-bottom: 52px;
+						 margin-top: 7px;
+
 						 &:nth-child(1),
 						 &:nth-child(2),
 						 &:nth-child(3),
@@ -587,11 +650,15 @@ body {
  .notify-bar {
 		h3 {
 			 display: block;
+			  font-size: 18px;
+				 margin-bottom: 13px;
+				  margin-left: 0;
+						 margin-top: 10px;
 			 text-align: left;
-			 font-size: 18px;
-			 margin-left: 0;
-			 margin-top: 10px;
-			 margin-bottom: 13px;
+
+
+
+
 		 }
 	.filter {
 				margin-left: 0;
@@ -606,8 +673,9 @@ body {
 	}
 	.filter-label {
 		float: right;
-		margin-top: -11px;
+
 		margin-left: 22px;
+			margin-top: -11px;
 	}
 	.blueberry {
 				padding: 6px 1px;
