@@ -189,6 +189,21 @@
 					 }
 				 }
 				  .content-item {
+							.eye {
+								text-align: center;
+								padding: 10px 5px;
+								float: none;
+							}
+							.blue-eye {
+								position: relative;
+								top: 0px;
+								left: -5px;
+								font-size: 12px;
+							}
+							.partner-details{
+								float: none;
+								padding: 0;
+							}
 						label {
 							padding: 2px 5px;
 							margin-top: 21px;
@@ -284,16 +299,21 @@
 					}
 				}
 				.content-item {
-					.partner-details {
-						float: right;
-    				padding: 7px 1px;
-						font-size: 11px;
+					.eye{
+						padding: 10px 5px;
+						margin: 0;
+						font-size: 14px;
+						float: none;
 					}
-					.blue-eye {
-
-						top: 13px !important;
+					.blue-eye{
+						top: 2px !important;
 						font-size: 11px !important;
-						left:-4px !important;
+						left: -3px !important;
+					}
+					.partner-details{
+						float: none;
+						padding: 7px 1px;
+						font-size: 11px;
 					}
 					.meter-img {
 						position: relative;
@@ -391,25 +411,35 @@
 							}
 						}
 						.content-item {
+							.eye{
+								text-align: center;
+    						padding: 11px 4px;
+								float: none;
+							}
 							.blue-eye {
-								top: 12px;
-								left: 0;
+								color: #02b8d6;
+								position: relative;
+								 top: 0px;
+								left: -3px;
 								font-size: 9px;
 							}
 							.partner-details {
+								display: inline;
+								float: none;
+								padding: 0px 0px;
+								 margin-right:0;
 								font-size: 11px;
-								padding: 7px 0 7px 4px;
-								width: 74px;
-							}
+															}
+
 							label {
-								padding: 1px 0;
-								margin-top: 21px;
+								margin-top: 19px;
+								padding: 1px 2px;
 								font-size: 8px;
-								margin-right: 0;
+								margin-right: 5px;
 								margin-bottom: 5px;
 							}
 							.heading-1 {
-								font-size: 15px !important;
+								font-size: 10px !important;
 							}
 							.meter-img {
 								float: right;
@@ -435,8 +465,8 @@
 							}
 
 							.display-hr {
-									padding-left: 2px;
-									font-size: 13px;
+								padding-left: 2px;
+								font-size: 9px;
 							}
 						}
 					}
@@ -446,7 +476,7 @@
  		}
 		 @media screen and (min-width :320px) and (max-width:360px) {
 			 .compare-section .product-detail-block .product-group .content-item {
-				 .blue-eye {
+				/* .blue-eye {
 					 top: 33px;
 					 left: -31px;
 					 font-size: 10px;
@@ -455,15 +485,12 @@
 					 font-size: 11px;
 					 padding: 7px 0 7px 4px;
 					 width: 65px;
-				 }
+				 }*/
 			 }
 		 }
 		  @media screen and (min-width :328px) and (max-width:360px) {
 				.compare-section .product-detail-block .product-group .content-item
  			 {
- 				 .blue-eye {
-					 top: 12px;
-					 left: 0px;
+
 				 }
 			}
-		}
