@@ -1,42 +1,50 @@
 .customised-nav {
-	background: white;
-	}
-.nav-name {
-		color: gray;
-		margin: 18px 20px 10px;
+  background: $whitish;
 }
+
+.nav-name {
+  color: $gray;
+  margin: 18px 20px 10px;
+}
+
 .compare-section {
-	margin-left: 220px;
-	h2 {
-		color:#504a4b;
-		margin-top: 0;
-		margin-bottom: 0;
-		padding: 10px 5px 15px 5px;
+  margin-left: 220px;
+
+  h2 {
+    color: $partner-color;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px 5px 15px;
+    }
+
+  .select-checkbox-block {
+    width: 96%;
 	}
-	.select-checkbox-block {
-			width: 96%;
-			.select-checkbox-group {
-					margin: 0;
-					background: white;
-					padding: 15px 20px;
-					.checkbox-item {
-						border-right: 1px solid gray;
-	    			text-align: center;
-	    			padding: 7px 0px;
+  .select-checkbox-group {
+	  background: $whitish;
+		margin: 0;
+		padding: 15px 20px;
+
+		 .checkbox-item {
+			  border-right: 1px solid $gray;
+				padding: 7px 0;
+	    	text-align: center;
 	    			label {
-							color:gray;
+							color: $gray;
+							font-size: 18px;
 				    	font-weight: normal;
-				    	font-size: 18px;
+				    	margin-left: 0;
 				    	margin-right: 10px;
-			    		margin-left: 0;
-	    			}
-	    		select {
-							padding: 6px 5px;
-	    				width: 120px;
-	    				background: $darkGreen;
-	    				border-radius: 3px;
-	    				color: white;
-						}
+           }
+
+					select {
+						background: $darkgreen;
+						border-radius: 3px;
+						color: $whitish;
+						padding: 6px 5px;
+	    			width: 120px;
+					}
+
 	    		&:nth-child(1) {
 					select {
 			    	padding: 5px 10px 5px 36px;
@@ -52,7 +60,7 @@
 		  	}
 	   	}
 		}
-  }
+
   .product-detail-block {
   			width: 96%;
   			.product-group {
