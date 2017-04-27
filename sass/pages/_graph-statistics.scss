@@ -1,0 +1,695 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $lightgray;
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
+	}
+
+.nav-block {
+  margin-bottom: 0;
+ }
+
+.logo {
+  height: 63px;
+  padding: 10px 30px;
+
+  img {
+    width: 170px;
+	}
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+	}
+
+.heading {
+  color: $black;
+  margin: 18px 20px 10px;
+}
+
+.left-sidebar {
+  background-color: $darkgray;
+  height: 100%;
+  position: fixed;
+  width: 220px;
+}
+
+.map-1 {
+  background: $analysis;
+  border-radius: 100%;
+  font-size: 30px;
+  margin-left: -7px;
+  padding: 6px;
+}
+
+.active {
+  background-color: $make;
+}
+
+.sub-make-section {
+  background: $makediv;
+  color: $whitish;
+  left: 14px;
+  margin-top: 15px;
+  padding: 1px 22px;
+  position: relative;
+  width: 180px;
+
+  h4 {
+    color: $grower;
+   }
+}
+
+.left-side-nav {
+  margin-top: 20px;
+
+  li {
+    font-size: 18px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 25px;
+
+    &:nth-child(1) a {
+      font-size: 26px;
+      margin-left: -15px;
+      padding-left: 20px;
+      text-decoration: none;
+  }
+
+    .map {
+      color: $whitish;
+      font-size: 20px;
+      padding-right: 20px;
+     }
+
+    a {
+      color: $whitish;
+      text-decoration: none;
+     }
+   }
+}
+
+.customize-select {
+  background-color: $darkgreen;
+  color: $whitish;
+  margin-top: 17px;
+  padding: 9px 38px;
+  }
+
+.layout {
+  margin-left: 220px;
+}
+
+.first-block {
+  width: 97%;
+ }
+
+.first-row {
+  margin: 0;
+}
+
+.col-overview {
+  background-color: $whitish;
+}
+
+.overview-section {
+  background-color: $whitish;
+  border-right: 3px solid $lightgray;
+  float: left;
+  height: 70px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  text-align: center;
+  width: 19.98%;
+
+  &:nth-child(3) {
+
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-top: -11px;
+}
+}
+
+  &:nth-child(5) {
+    border: 0;
+  }
+
+  p {
+    font-size: 28px;
+    font-weight: bold;
+
+    span {
+      padding-right: 7px;
+		 }
+
+    .small {
+      font-weight: normal;
+		}
+	}
+}
+
+.second-row {
+  width: 97%;
+}
+
+.notify-bar {
+  padding: 14px;
+
+  h3 {
+    display: inline;
+    font-weight: bold;
+    margin-left: -12px;
+
+    .inactive-members {
+      font-size: 16px;
+      font-weight: normal;
+     }
+  }
+
+  .cal-blue {
+    float: right;
+    margin-top: -7px;
+   }
+
+  .calendar {
+    background-color: $calendar;
+    border-radius: 5px;
+    color: $whitish;
+    padding: 9px 45px;
+  }
+
+  .blueberry {
+    background-color: $darkgreen;
+    border-radius: 5px;
+    color: $whitish;
+    padding: 9px 45px;
+  }
+
+  .filter {
+    color: $darkgreen;
+    font-size: 34px;
+    margin-left: 94px;
+    margin-right: 12px;
+    position: relative;
+    top: 10px;
+    }
+ }
+
+.products-section {
+  height: 400px;
+  width: 90%;
+}
+
+.product-row {
+  margin: 0;
+}
+
+.analysis-col {
+  background-color: $whitish;
+  height: 600px;
+  margin-right: 7.5px;
+  padding: 0;
+  text-align: center;
+  width: 32.8%;
+
+  &:last-child {
+    margin-right: 0 $important;
+  }
+
+  img {
+    border: 1px solid $whitish;
+    margin-top: -50px;
+    width: 100px;
+   }
+
+  .avg-section {
+    border-bottom: 1px solid $gray;
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+  .temp,
+  .points {
+    background: $black;
+    color: $whitish;
+    width: 100px;
+  }
+
+  .rasberry {
+    background: $rasberry;
+    color: $whitish;
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 0 11px;
+  }
+
+  .blueberries {
+    background: $blueberry;
+    color: $calendar;
+    font-size: 22px;
+    padding: 0 11px;
+  }
+
+  .analysis {
+    border-top: 1px solid $gray;
+    margin: 14px auto;
+    padding-top: 15px;
+    width: 67%;
+  }
+
+  .btn-compare {
+    font-size: 17px;
+    padding: 1px 33px;
+  }
+
+  .btn-detail {
+    color: $btn-detail;
+    font-size: 17px;
+    padding: 1px 43px;
+  }
+
+  .heading-top {
+    background: $analysis;
+    height: 119px;
+    margin-top: -21px;
+
+    h2 {
+      padding-top: 5px;
+    }
+
+    h5 {
+      background: $grower;
+      margin: 0 auto;
+      width: 60px;
+    }
+ }
+
+  .runs {
+    border-bottom: 1px solid $gray;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    text-align: center;
+    width: 68%;
+  }
+
+  .products {
+    margin-top: 2px;
+  }
+
+  .runs,
+  .products {
+    font-size: 22px;
+
+    span {
+      font-size: 35px;
+      padding-right: 10px;
+      position: relative;
+      top: 6px;
+    }
+  }
+}
+
+
+
+
+@media screen and (min-width :1025px) and (max-width:1280px) {
+  .cal-blue {
+    margin-top: -7px;
+
+    .calendar {
+      margin-right: 26px;
+      padding: 9px 39px;
+    }
+
+    .filter {
+      margin-left: 0;
+    }
+
+    .blueberry {
+      padding: 9px 35px;
+    }
+  }
+
+  .analysis-col {
+    height: 570px;
+    margin-right: 5.5px;
+
+    .btn-compare {
+      font-size: 15px;
+      padding: 1px 2px;
+   }
+
+    .btn-detail {
+      font-size: 16px;
+      padding: 1px 25px;
+   }
+
+    .blueberries {
+      font-size: 16px;
+      padding: 2px 8px;
+    }
+
+    .rasberry {
+      font-size: 16px;
+      padding: 2px 8px;
+   }
+
+    .analysis {
+      font-size: 20px;
+      width: 72%;
+}
+
+    .avg-section {
+      .avg-temp-text {
+        font-size: 18px;
+       }
+    }
+}
+
+
+
+}
+
+@media screen and (min-width :768px) and (max-width:1024px){
+  .overview-section {
+    margin-bottom: 53px;
+    margin-top: 15px;
+
+    &:nth-child(1) {
+
+      p {
+        margin-top: 16px;
+      }
+     }
+
+    p {
+      font-size: 20px;
+      margin-top: -8px;
+     }
+   }
+
+  .cal-blue {
+    margin-top: -8px;
+     }
+
+  h3 {
+    font-size: 16px;
+   }
+
+  .filter {
+    font-size: 25px;
+    position: relative;
+    right: -6px;
+    top: 7px;
+   }
+
+  .calendar {
+    margin-left: 10px;
+    margin-right: -61px;
+    padding: 4px 0;
+   }
+
+  .blueberry {
+    padding: 4px 0;
+   }
+
+  .analysis-col {
+    height: 545px;
+    margin-right: 4.4px;
+    width: 32.72%;
+
+    &:last-child {
+      margin-right: 0 $important;
+     }
+
+    .runs {
+      font-size: 16px;
+      padding-bottom: 8px;
+      padding-top: 0;
+    }
+
+    .products {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: -8px;
+
+      span {
+        font-size: 28px;
+        }
+    }
+
+    .btn-detail {
+      font-size: 14px;
+      padding: 0 16px;
+   }
+
+    .btn-compare {
+      font-size: 12px;
+      padding: 6px 4px;
+  }
+
+    .analysis {
+      font-size: 17px;
+  }
+
+    .avg-section {
+      margin-top: -16px;
+
+      .avg-temp-text {
+        font-size: 13px;
+        margin-top: 5px;
+       }
+
+      .avg-temp {
+        font-size: 24px;
+       }
+    }
+
+    .heading-top {
+      h2 {
+        font-size: 23px;
+        }
+      }
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .left-sidebar {
+    left: -220px;
+	 }
+
+  .layout {
+    margin-left: 0;
+	 }
+ }
+
+@media screen and (min-width :520px) and (max-width:767px) {
+  .nav-block {
+    .heading {
+      margin: -43px 30px 0;
+		 }
+	 }
+
+  .analysis-col {
+    height: 645px;
+    margin-right: 9.5px;
+    width: 48.9%;
+
+    &:nth-child(2) {
+      margin-right: 0 $important;
+   }
+
+    .avg-section {
+      .avg-temp-text {
+        font-size: 18px;
+			}
+		}
+
+    .analysis {
+      font-size: 21px;
+      width: 61%;
+    }
+
+    .btn-compare {
+      padding: 5px 4px;
+   }
+
+    .btn-detail {
+      padding: 5px 17px;
+   }
+}
+
+  .first-block {
+    width: 92%;
+  }
+
+  .col-overview {
+    height: 232px;
+  }
+
+  .overview-section {
+    margin-top: 10px;
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      width: 33.333%;
+   }
+
+    &:nth-child(3) {
+      border: 0;
+ }
+
+    &:nth-child(5) {
+      border: 0;
+      padding-right: 25px;
+      width: 50%;
+  }
+
+    &:nth-child(4) {
+      padding-left: 25px;
+      width: 50%;
+    }
+ }
+
+  .second-row {
+    .notify-bar {
+      h3 {
+        display: block;
+        font-size: 26px;
+        margin-bottom: 13px;
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: left;
+       }
+
+      .filter {
+        margin-left: 0;
+	 	   }
+
+      .cal-blue {
+        float: none;
+        margin-left: 17px;
+        margin-top: 0;
+      }
+
+      .calendar {
+        margin-right: 99px;
+        padding: 8px 26px;
+      }
+
+      .filter-label {
+        float: right;
+        margin-top: -10px;
+      }
+
+      .blueberry {
+        padding: 8px 26px;
+      }
+  	}
+  }
+}
+
+@media screen and (min-width :320px) and (max-width:519px) {
+  .nav-block {
+    .heading {
+      margin: -43px 14px 0;
+		}
+	}
+
+  .layout {
+    margin-left: 16px;
+
+    .analysis-col {
+      height: 640px;
+      margin-top: 20px;
+      width: 100%;
+
+      .btn-compare {
+        padding: 5px 4px;
+		}
+
+      .btn-detail {
+        padding: 5px 17px;
+		 }
+
+      &:first-child {
+        margin-top: 0;
+		 }
+
+      .avg-temp-text {
+        font-size: 21px $important;
+ 		 }
+
+}
+
+    .first-block {
+      width: 92%;
+		}
+
+    .overview-section {
+      margin-bottom: 52px;
+      margin-top: 7px;
+
+      &:nth-child(1),
+			&:nth-child(2),
+			&:nth-child(3),
+		  &:nth-child(4) {
+        width: 50%;
+			}
+
+      &:nth-child(2),
+      &:nth-child(4),
+			&:nth-child(5) {
+        border: 0;
+			}
+
+      &:nth-child(5) {
+        width: 100%;
+			}
+ }
+
+    .notify-bar {
+      h3 {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 13px;
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: left;
+       }
+
+      .filter {
+        margin-left: 0;
+        margin-right: 0;
+			}
+
+      .cal-blue {
+        float: none;
+        margin-top: 0;
+      }
+
+      .calendar {
+        padding: 6px 2px;
+	    }
+
+      .filter-label {
+        float: right;
+        margin-left: 22px;
+        margin-top: -11px;
+	}
+
+      .blueberry {
+        padding: 6px 1px;
+	    }
+    }
+  }
+}
